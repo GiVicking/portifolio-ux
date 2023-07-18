@@ -76,7 +76,8 @@ text-transform: uppercase;
 text-align: left;
 position: absolute;
 left: 0;
-padding: 15px;
+bottom: 35%;
+padding: 20px;
 }
 
 header .hero-text h1 {
@@ -88,26 +89,20 @@ text-transform: none;
 font-family: 'Great Vibes', cursive;
 }
 
+header .point{
+color:#f39e00;
+}
+
 header .cta {
-position: relative;
+position: absolute;
+bottom: 20%;
+left: 5rem;
+padding: 20px;
 }
-header .cta1{
-  font-size: 1em;
-  margin-right: 1rem;
-  font-weight: 700;
-  padding: 12px 20px;
-  border: 2px solid ;
-  color: #f300b4;
-  text-transform: uppercase;
-  margin-top: -40px;
-  -webkit-animation: bg-color 3s infinite ease-in;
-          animation: bg-color 3s infinite ease-in;
-  background: none;
-  transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
-}
+
 header .cta2{
   font-size: 1em;
-  margin-right: 1rem;
+ 
   font-weight: 700;
   padding: 12px 20px;
   border: 2px solid ;
@@ -116,7 +111,7 @@ header .cta2{
   margin-top: -40px;
   -webkit-animation: bg-color 3s infinite ease-in;
           animation: bg-color 3s infinite ease-in;
-  background: #f300b4;
+  background: #f39e00;
   transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
 }
 header .cta:hover {
@@ -126,16 +121,14 @@ header .cta:hover {
 }
 .cta2:hover {
   background-color:transparent;
-  color: #f300b4;
+  color: #f39e00;
   cursor: pointer;
   -webkit-animation: none;
           animation: none;
 }
 
 
-header .point{
-  color:#f300b4
-}
+
 
 hr {
   margin-top: 4em;
